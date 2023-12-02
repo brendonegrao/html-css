@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Externas</title>
+    <style>
+        @font-face {
+            font-family: love;
+            src: url('fonts/Break.otf') format(opentype), url('fonts/Break.ttf') format(truetype);
+
+            /*
+            
+            Tipos de format
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg*/
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: love, Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo feliz!, coisa linda!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste reiciendis culpa magni quasi eveniet doloremque aspernatur omnis alias, ab illum eligendi tempora vitae vel, cumque at. Ut mollitia iusto error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam maxime, officia aspernatur odio dolorem voluptates facilis natus atque nemo architecto similique mollitia cumque quibusdam at voluptatem omnis suscipit vero?</p>
+</body>
+</html>
