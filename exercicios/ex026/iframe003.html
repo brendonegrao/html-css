@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protegendo iframe</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, doloribus cumque amet nobis possimus voluptate quaerat hic vitae quas repudiandae numquam iusto repellat aperiam reiciendis, commodi impedit quos quis dolorem!</p>
+    <iframe src="tabela07.html" frameborder="0" sandbox="sandbox" referrerpolicy="no-referer"></iframe>
+
+
+    <!--
+    Bloqueia qualquer transferencia de dados.
+    sandbox='sandbox'
+
+    Caso queira capturar alguns dados e deixar outros formas bloquados por segurança pode collocar:
+
+    sandbox='allow-same-origem allow-forms allow-script'
+
+    
+    Isso vai permitir captura de informações só por servidores de mesma origem.]Permitiu forms e scripts
+
+    
+    -->
+
+</body>
+</html>
