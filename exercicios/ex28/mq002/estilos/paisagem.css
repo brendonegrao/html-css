@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*Orientation Landscape*/
+
+body {
+    background-image: url(../image/cev-landscape.jpg);
+    background-position: center bottom;
+}
